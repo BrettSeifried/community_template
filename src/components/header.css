@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  align-items: center;
+  border: 10px, solid, white;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  height: 10vw;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.headerObj {
+  padding: 10px;
+  border: solid;
+  border-color: white;
+  border-top: 0ch;
+  border-left: 0ch;
+}
+
+.headerLinks {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-size: small;
+  font-weight: 400;
+  align-items: center;
+}
+
+.social {
+  border: solid;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
